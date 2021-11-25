@@ -1,0 +1,57 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    opacity:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:transalate(-50%,-50%)
+}
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.demo{
+    background-color: grey;
+    flex:1;
+    justify-content:space-between;
+}
